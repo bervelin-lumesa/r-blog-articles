@@ -1,3 +1,11 @@
+########################################################
+# By Bervelin Lumesa                                   #
+#                                                      #
+# Mail     : lumesabervelin@gmail.com                  #
+# Github   : https://github.com/bervelin-lumesa        #
+# Twitter  : https://twitter.com/bervelinL             #
+# Linkedin : https://linkedin/in/bervelin-lumesa       #
+########################################################
 
 # loading libraries
 library(sf)      # for the map
@@ -67,7 +75,7 @@ ggplot() +
 
 # Thematic map 2
 ggplot() + 
-  geom_sf(data = drc_shape %>% filter(ADM1_FR %in% c("Kwango", "Kwilu", "MaÔ-Ndombe")), fill = "white") + 
+  geom_sf(data = drc_shape %>% filter(ADM1_FR %in% c("Kwango", "Kwilu", "Ma√Ø-Ndombe")), fill = "white") + 
   geom_sf(data =all_df, aes(fill = num), color = "white") + 
   ggtitle(label = "Old Bandundu province") + 
 #  scale_fill_gradient2("Variable to illustrate", low = "white", high = "blue") + 
