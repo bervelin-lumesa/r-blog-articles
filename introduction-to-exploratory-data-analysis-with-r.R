@@ -1,3 +1,11 @@
+########################################################
+# By Bervelin Lumesa                                   #
+#                                                      #
+# Mail     : lumesabervelin@gmail.com                  #
+# Github   : https://github.com/bervelin-lumesa        #
+# Twitter  : https://twitter.com/bervelinL             #
+# Linkedin : https://linkedin/in/bervelin-lumesa       #
+########################################################
 
 # loading libraries
 library(tidyverse)
